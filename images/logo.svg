@@ -1,0 +1,36 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title>Edgar Garcia Logo</title>
+  <desc>Personal logo with the initials EM inside a blue and purple gradient circle.</desc>
+
+  <defs>
+    <linearGradient id="circleGradient" x1="20%" y1="15%" x2="80%" y2="85%">
+      <stop offset="0%" stop-color="#2563eb"/>
+      <stop offset="50%" stop-color="#4f46e5"/>
+      <stop offset="100%" stop-color="#7c3aed"/>
+    </linearGradient>
+
+    <filter id="softGlow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="18" result="blur"/>
+      <feFlood flood-color="#7c3aed" flood-opacity="0.35" result="glowColor"/>
+      <feComposite in="glowColor" in2="blur" operator="in" result="softGlow"/>
+      <feMerge>
+        <feMergeNode in="softGlow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <circle cx="256" cy="256" r="190" fill="url(#circleGradient)" filter="url(#softGlow)"/>
+
+  <text
+    x="256"
+    y="282"
+    text-anchor="middle"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="118"
+    font-weight="700"
+    fill="#ffffff"
+    letter-spacing="2">
+    EM
+  </text>
+</svg>

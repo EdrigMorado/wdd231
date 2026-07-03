@@ -1,0 +1,43 @@
+@media screen and (min-width: 700px) {
+    header {
+        padding: 1rem 2rem;
+    }
+
+    #menuButton {
+        display: none;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: row;
+    }
+
+    nav li {
+        flex: 1;
+    }
+
+    nav a {
+        text-align: center;
+        border-top: none;
+    }
+
+    .main-grid {
+        grid-template-columns: 2fr 1fr;
+    }
+
+    .course-buttons {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .course-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .about-card {
+        min-height: 250px;
+    }
+
+    .photo-card {
+        min-height: 250px;
+    }
+}
