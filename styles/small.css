@@ -189,11 +189,6 @@ section p {
     color: var(--accent-color);
 }
 
-.course-card.completed {
-    background-color: var(--completed-color);
-    border-color: var(--accent-color);
-}
-
 #totalCredits {
     text-align: center;
     font-weight: 700;
