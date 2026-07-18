@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360">
+<rect width="640" height="360" fill="#f2f5f8"/><circle cx="320" cy="160" r="128" fill="#e1e8ef"/>
+<path d="M152 138 320 52l168 86z" fill="#0b1f3a"/><path d="M175 151h290M192 151v128M256 151v128M320 151v128M384 151v128M448 151v128M160 286h320" stroke="#0e7490" stroke-width="13"/>
+<circle cx="320" cy="111" r="24" fill="#d4a72c"/>
+<text x="320" y="338" text-anchor="middle" fill="#0b1f3a" font-family="Arial" font-size="27" font-weight="700">FINANCIAL SERVICES</text>
+</svg>

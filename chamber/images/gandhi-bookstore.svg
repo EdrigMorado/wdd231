@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360">
+<rect width="640" height="360" fill="#f4c928"/><rect x="45" y="48" width="550" height="264" rx="22" fill="#fff8d7"/>
+<path d="M140 105h145c24 0 43 19 43 43v135c-24-18-48-27-73-27H140z" fill="#fff" stroke="#0b1f3a" stroke-width="8"/>
+<path d="M500 105H355c-24 0-43 19-43 43v135c24-18 48-27 73-27h115z" fill="#fff" stroke="#0b1f3a" stroke-width="8"/>
+<path d="M312 130v153" stroke="#0b1f3a" stroke-width="6"/>
+<text x="320" y="82" text-anchor="middle" fill="#0b1f3a" font-family="Arial" font-size="28" font-weight="700">BOOKS AND CULTURE</text>
+</svg>

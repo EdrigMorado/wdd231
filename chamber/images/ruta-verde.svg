@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360">
+<rect width="640" height="360" fill="#e8f5ef"/><path d="M105 118h300v145H105zM405 166h82l55 63v34H405z" fill="#ffffff" stroke="#176b4a" stroke-width="10" stroke-linejoin="round"/>
+<circle cx="190" cy="276" r="34" fill="#0b1f3a"/><circle cx="455" cy="276" r="34" fill="#0b1f3a"/><circle cx="190" cy="276" r="14" fill="#d4a72c"/><circle cx="455" cy="276" r="14" fill="#d4a72c"/>
+<path d="M250 200c65-77 117-70 138-62-19 54-70 88-138 62z" fill="#3ca66d"/><path d="M270 190c42-18 72-31 105-45" stroke="#176b4a" stroke-width="6" stroke-linecap="round"/>
+<text x="320" y="338" text-anchor="middle" fill="#0b1f3a" font-family="Arial" font-size="27" font-weight="700">SUSTAINABLE DELIVERY</text>
+</svg>

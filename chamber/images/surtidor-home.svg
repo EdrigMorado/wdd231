@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360">
+<rect width="640" height="360" fill="#eaf1f5"/><path d="M112 177 320 62l208 115v132H112z" fill="#ffffff" stroke="#0e7490" stroke-width="10" stroke-linejoin="round"/>
+<rect x="260" y="201" width="120" height="108" fill="#d4a72c"/>
+<path d="m204 233 60-60m-8 8 38 38m-98 31 38 38" stroke="#0b1f3a" stroke-width="16" stroke-linecap="round"/>
+<circle cx="202" cy="235" r="30" fill="none" stroke="#0b1f3a" stroke-width="13"/>
+<text x="320" y="342" text-anchor="middle" fill="#0b1f3a" font-family="Arial" font-size="27" font-weight="700">HOME AND CONSTRUCTION</text>
+</svg>

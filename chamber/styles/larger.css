@@ -1,0 +1,105 @@
+/* Larger screens */
+@media (min-width: 700px) {
+  .header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+
+  .brand {
+    width: 290px;
+    flex: 0 0 auto;
+  }
+
+  .menu-button {
+    display: none;
+  }
+
+  .primary-nav,
+  .primary-nav.open {
+    display: block;
+    padding-top: 0;
+  }
+
+  .primary-nav ul {
+    display: flex;
+    gap: 0.25rem;
+  }
+
+  .primary-nav a {
+    padding: 0.65rem 0.8rem;
+  }
+
+  main {
+    padding-top: 2.25rem;
+  }
+
+  .page-heading {
+    padding: 3rem;
+  }
+
+  .directory-toolbar {
+    flex-direction: row;
+    align-items: end;
+    justify-content: space-between;
+  }
+
+  .member-cards.grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .footer-content {
+    grid-template-columns: 1.4fr auto 1fr;
+    align-items: center;
+  }
+
+  .social-links {
+    justify-content: center;
+  }
+
+  .footer-development {
+    text-align: right;
+  }
+}
+
+
+@media (min-width: 850px) {
+  .member-cards.list .member-content {
+    display: grid;
+    grid-template-columns: minmax(180px, 1.35fr) minmax(220px, 1.5fr) minmax(145px, 0.8fr) minmax(110px, auto);
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .member-cards.list .member-heading,
+  .member-cards.list .member-card address,
+  .member-cards.list .member-card p {
+    margin-bottom: 0;
+  }
+
+  .member-cards.list .member-card p:last-child {
+    text-align: right;
+  }
+}
+
+
+@media (min-width: 900px) {
+  .header-content {
+    gap: 2rem;
+  }
+
+  .brand {
+    width: 320px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .member-cards.grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .primary-nav a {
+    padding-inline: 1rem;
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "members": [
+    {
+      "name": "Librerías Gandhi - Mauricio Achar",
+      "address": "Miguel Ángel de Quevedo 121, Guadalupe Chimalistac, Coyoacán, 01050, Mexico City",
+      "phone": "+52 55 4166 2549",
+      "website": "https://www.gandhi.com.mx/",
+      "image": "gandhi-bookstore.svg",
+      "membershipLevel": 3,
+      "category": "Bookstore and Culture",
+      "description": "A bookstore with a wide selection of books and cultural activities for readers of all ages.",
+      "sourceType": "real"
+    },
+    {
+      "name": "La Casa de Toño - Floresta",
+      "address": "Calle Floresta 77, Clavería, Azcapotzalco, 02080, Mexico City",
+      "phone": "+52 55 8094 6243",
+      "website": "https://lacasadetono.mx/",
+      "image": "casa-tono.svg",
+      "membershipLevel": 3,
+      "category": "Mexican Restaurant",
+      "description": "A Mexican restaurant known for pozole, quesadillas, and other traditional dishes.",
+      "sourceType": "real"
+    },
+    {
+      "name": "El Surtidor - Observatorio",
+      "address": "Av. Observatorio 260, Col. Daniel Garza, Miguel Hidalgo, Mexico City",
+      "phone": "+52 55 1450 9000",
+      "website": "https://www.surtidor.com/",
+      "image": "surtidor-home.svg",
+      "membershipLevel": 2,
+      "category": "Home Improvement and Construction",
+      "description": "A supplier of bathroom, kitchen, plumbing, construction, and remodeling products.",
+      "sourceType": "real"
+    },
+    {
+      "name": "Scotiabank - Polanco",
+      "address": "Alejandro Dumas 122, Polanco, Miguel Hidalgo, 11560, Mexico City",
+      "phone": "+52 55 5279 5152",
+      "website": "https://www.scotiabank.com.mx/",
+      "image": "scotiabank-finance.svg",
+      "membershipLevel": 2,
+      "category": "Financial Services",
+      "description": "A bank branch that offers financial services for individuals, entrepreneurs, and businesses.",
+      "sourceType": "real"
+    },
+    {
+      "name": "Digital Nexus CDMX",
+      "address": "Av. Insurgentes Sur 845, Del Valle, Benito Juárez, 03100, Mexico City",
+      "phone": "+52 55 7102 8840",
+      "website": "https://example.com/digital-nexus",
+      "image": "nexo-digital.svg",
+      "membershipLevel": 3,
+      "category": "Technology",
+      "description": "A fictional agency providing web development, automation, and digital solutions for small businesses.",
+      "sourceType": "fictitious"
+    },
+    {
+      "name": "Jacaranda Coffee",
+      "address": "Calle Jalapa 118, Roma Norte, Cuauhtémoc, 06700, Mexico City",
+      "phone": "+52 55 6384 2197",
+      "website": "https://example.com/jacaranda-coffee",
+      "image": "cafe-jacaranda.svg",
+      "membershipLevel": 1,
+      "category": "Coffee Shop",
+      "description": "A fictional neighborhood coffee shop serving Mexican coffee, artisan bread, and spaces for business meetings.",
+      "sourceType": "fictitious"
+    },
+    {
+      "name": "Green Route Delivery",
+      "address": "Calz. de Tlalpan 1520, Miravalle, Benito Juárez, 03580, Mexico City",
+      "phone": "+52 55 9021 4630",
+      "website": "https://example.com/green-route",
+      "image": "ruta-verde.svg",
+      "membershipLevel": 2,
+      "category": "Urban Logistics",
+      "description": "A fictional local delivery company that uses bicycles and electric vehicles to serve city businesses.",
+      "sourceType": "fictitious"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360">
+<rect width="640" height="360" fill="#f5effc"/><circle cx="500" cy="78" r="30" fill="#9269c7"/><circle cx="540" cy="110" r="24" fill="#b58ada"/><circle cx="475" cy="125" r="20" fill="#d3b7ea"/>
+<path d="M160 120h260v110c0 55-45 100-100 100h-60c-55 0-100-45-100-100z" fill="#ffffff" stroke="#0b1f3a" stroke-width="9"/>
+<path d="M420 151h45c48 0 55 82 0 88h-46" fill="none" stroke="#0b1f3a" stroke-width="12"/>
+<path d="M240 90c-16-23 11-39-2-64M310 90c-16-23 11-39-2-64M380 90c-16-23 11-39-2-64" fill="none" stroke="#9269c7" stroke-width="8" stroke-linecap="round"/>
+<text x="320" y="350" text-anchor="middle" fill="#0b1f3a" font-family="Arial" font-size="27" font-weight="700">NEIGHBORHOOD COFFEE</text>
+</svg>
