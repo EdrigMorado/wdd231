@@ -1,4 +1,5 @@
 /* Mobile-first styles: 320px and wider */
+
 :root {
   --primary: #0b1f3a;
   --secondary: #0e7490;
@@ -18,7 +19,7 @@ body {
   min-width: 320px;
   background-color: var(--background);
   color: var(--text);
-  font-family: "Segoe UI", Roboto, Arial, sans-serif;
+  font-family: "Inter", Arial, sans-serif;
   line-height: 1.6;
 }
 
@@ -35,6 +36,8 @@ a {
 a:hover {
   color: var(--primary);
 }
+
+/* Header */
 
 .site-header {
   position: sticky;
@@ -61,6 +64,8 @@ a:hover {
   height: auto;
 }
 
+/* Mobile menu button */
+
 .menu-button {
   position: absolute;
   top: 0.75rem;
@@ -77,7 +82,7 @@ a:hover {
   border: 1px solid rgb(255 255 255 / 50%);
   border-radius: 0.55rem;
   background-color: transparent;
-  color: white;
+  color: #ffffff;
 
   font-size: 1.55rem;
   line-height: 1;
@@ -88,6 +93,8 @@ a:hover {
 .menu-button:focus-visible {
   background-color: rgb(255 255 255 / 12%);
 }
+
+/* Navigation */
 
 .primary-nav {
   display: none;
@@ -108,7 +115,7 @@ a:hover {
   display: block;
   padding: 0.8rem 0.9rem;
   border-radius: 0.45rem;
-  color: white;
+  color: #ffffff;
   text-decoration: none;
   font-weight: 600;
 }
@@ -117,8 +124,10 @@ a:hover {
 .primary-nav a:focus-visible,
 .primary-nav a[aria-current="page"] {
   background-color: var(--secondary);
-  color: white;
+  color: #ffffff;
 }
+
+/* Main content */
 
 main {
   width: min(1200px, calc(100% - 2rem));
@@ -126,16 +135,19 @@ main {
   padding: 1.5rem 0 3rem;
 }
 
+/* Page introduction */
+
 .page-heading {
   padding: 2rem 1.25rem;
   border-radius: var(--radius);
-  background: linear-gradient(135deg, var(--primary), #153f5a);
-  color: white;
+  background-color: var(--primary);
+  color: #ffffff;
   box-shadow: var(--shadow);
 }
 
 .page-heading h1 {
   margin-bottom: 0.55rem;
+  color: #ffffff;
   font-size: clamp(2rem, 9vw, 3.4rem);
   line-height: 1.1;
 }
@@ -153,6 +165,8 @@ main {
   letter-spacing: 0.09em;
   text-transform: uppercase;
 }
+
+/* Directory section */
 
 .directory-section {
   padding-top: 2.25rem;
@@ -174,6 +188,8 @@ main {
   margin-bottom: 0;
   color: var(--muted);
 }
+
+/* Grid and list buttons */
 
 .view-buttons {
   display: flex;
@@ -197,14 +213,18 @@ main {
 .view-button.active {
   border-color: var(--secondary);
   background-color: var(--secondary);
-  color: white;
+  color: #ffffff;
 }
+
+/* Member grid */
 
 .member-cards.grid {
   display: grid;
   grid-template-columns: 1fr;
   gap: 1rem;
 }
+
+/* Individual member cards */
 
 .member-card {
   overflow: hidden;
@@ -225,6 +245,7 @@ main {
 
 .member-card > img {
   width: 100%;
+  height: auto;
   aspect-ratio: 16 / 9;
   object-fit: cover;
   background-color: #e8edf3;
@@ -253,6 +274,8 @@ main {
   font-size: 1.25rem;
   line-height: 1.25;
 }
+
+/* Membership badges */
 
 .membership-badge {
   display: inline-block;
@@ -296,6 +319,8 @@ main {
   font-weight: 700;
 }
 
+/* List view */
+
 .member-cards.list {
   display: block;
 }
@@ -323,6 +348,8 @@ main {
   padding: 1rem;
 }
 
+/* Loading and error messages */
+
 .loading-message,
 .error-message {
   grid-column: 1 / -1;
@@ -335,9 +362,11 @@ main {
   border-left: 5px solid #a51d2d;
 }
 
+/* Footer */
+
 .site-footer {
   background-color: var(--primary);
-  color: white;
+  color: #ffffff;
 }
 
 .footer-content {
@@ -365,6 +394,8 @@ main {
   color: #b8edf2;
 }
 
+/* Social media links */
+
 .social-links {
   display: flex;
   gap: 0.7rem;
@@ -378,7 +409,7 @@ main {
   place-items: center;
   border: 1px solid rgb(255 255 255 / 45%);
   border-radius: 50%;
-  color: white;
+  color: #ffffff;
   text-decoration: none;
   font-weight: 800;
 }
@@ -386,11 +417,14 @@ main {
 .social-links a:hover,
 .social-links a:focus-visible {
   background-color: var(--secondary);
+  color: #ffffff;
 }
 
 .footer-development {
   font-size: 0.9rem;
 }
+
+/* Keyboard accessibility */
 
 :focus-visible {
   outline: 3px solid #f6ce58;
