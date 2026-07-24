@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="650" viewBox="0 0 1200 650" role="img" aria-labelledby="title desc">
+  <title id="title">Mexico City business district illustration</title>
+  <desc id="desc">A modern city skyline with office buildings, trees, mountains, and the Angel of Independence monument.</desc>
+
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#79c4dc"/>
+      <stop offset="1" stop-color="#d9eef4"/>
+    </linearGradient>
+    <linearGradient id="buildingBlue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#183d63"/>
+      <stop offset="1" stop-color="#0b1f3a"/>
+    </linearGradient>
+    <linearGradient id="buildingTeal" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1590a8"/>
+      <stop offset="1" stop-color="#0e5f73"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="650" fill="url(#sky)"/>
+  <circle cx="1005" cy="110" r="58" fill="#f5ca58" opacity="0.95"/>
+
+  <path d="M0 310 L165 205 L300 285 L455 165 L620 285 L775 195 L945 285 L1090 205 L1200 290 L1200 650 L0 650 Z" fill="#7ca5ad" opacity="0.45"/>
+  <path d="M0 355 L180 270 L315 330 L495 235 L675 340 L850 260 L1020 330 L1200 250 L1200 650 L0 650 Z" fill="#5d8792" opacity="0.48"/>
+
+  <rect y="520" width="1200" height="130" fill="#3f6f4d"/>
+  <rect y="575" width="1200" height="75" fill="#243b35"/>
+  <path d="M0 590 H1200" stroke="#d4a72c" stroke-width="8" stroke-dasharray="38 28" opacity="0.9"/>
+
+  <g>
+    <rect x="65" y="300" width="145" height="235" rx="4" fill="url(#buildingBlue)"/>
+    <rect x="90" y="330" width="22" height="30" fill="#8ed5df"/>
+    <rect x="127" y="330" width="22" height="30" fill="#8ed5df"/>
+    <rect x="164" y="330" width="22" height="30" fill="#8ed5df"/>
+    <rect x="90" y="382" width="22" height="30" fill="#8ed5df"/>
+    <rect x="127" y="382" width="22" height="30" fill="#8ed5df"/>
+    <rect x="164" y="382" width="22" height="30" fill="#8ed5df"/>
+    <rect x="90" y="434" width="22" height="30" fill="#8ed5df"/>
+    <rect x="127" y="434" width="22" height="30" fill="#8ed5df"/>
+    <rect x="164" y="434" width="22" height="30" fill="#8ed5df"/>
+  </g>
+
+  <g>
+    <path d="M245 535 V245 H390 V535 Z" fill="url(#buildingTeal)"/>
+    <path d="M270 265 H365" stroke="#a8e6ed" stroke-width="11" stroke-dasharray="18 12"/>
+    <path d="M270 315 H365" stroke="#a8e6ed" stroke-width="11" stroke-dasharray="18 12"/>
+    <path d="M270 365 H365" stroke="#a8e6ed" stroke-width="11" stroke-dasharray="18 12"/>
+    <path d="M270 415 H365" stroke="#a8e6ed" stroke-width="11" stroke-dasharray="18 12"/>
+    <path d="M270 465 H365" stroke="#a8e6ed" stroke-width="11" stroke-dasharray="18 12"/>
+  </g>
+
+  <g>
+    <path d="M430 535 V195 L560 155 L610 535 Z" fill="url(#buildingBlue)"/>
+    <path d="M472 220 L530 203" stroke="#9ddfe7" stroke-width="12"/>
+    <path d="M470 275 L538 255" stroke="#9ddfe7" stroke-width="12"/>
+    <path d="M468 330 L546 307" stroke="#9ddfe7" stroke-width="12"/>
+    <path d="M466 385 L553 360" stroke="#9ddfe7" stroke-width="12"/>
+    <path d="M464 440 L560 412" stroke="#9ddfe7" stroke-width="12"/>
+  </g>
+
+  <g>
+    <rect x="655" y="270" width="125" height="265" fill="#d8e4e8"/>
+    <rect x="682" y="300" width="30" height="28" fill="#3c6f86"/>
+    <rect x="724" y="300" width="30" height="28" fill="#3c6f86"/>
+    <rect x="682" y="350" width="30" height="28" fill="#3c6f86"/>
+    <rect x="724" y="350" width="30" height="28" fill="#3c6f86"/>
+    <rect x="682" y="400" width="30" height="28" fill="#3c6f86"/>
+    <rect x="724" y="400" width="30" height="28" fill="#3c6f86"/>
+    <rect x="682" y="450" width="30" height="28" fill="#3c6f86"/>
+    <rect x="724" y="450" width="30" height="28" fill="#3c6f86"/>
+  </g>
+
+  <g>
+    <rect x="825" y="230" width="165" height="305" rx="4" fill="url(#buildingTeal)"/>
+    <path d="M850 265 H965" stroke="#d8f3f5" stroke-width="10" stroke-dasharray="22 14"/>
+    <path d="M850 315 H965" stroke="#d8f3f5" stroke-width="10" stroke-dasharray="22 14"/>
+    <path d="M850 365 H965" stroke="#d8f3f5" stroke-width="10" stroke-dasharray="22 14"/>
+    <path d="M850 415 H965" stroke="#d8f3f5" stroke-width="10" stroke-dasharray="22 14"/>
+    <path d="M850 465 H965" stroke="#d8f3f5" stroke-width="10" stroke-dasharray="22 14"/>
+  </g>
+
+  <g transform="translate(1030 218)">
+    <rect x="42" y="100" width="24" height="217" fill="#c9b38a"/>
+    <rect x="20" y="305" width="68" height="20" fill="#9c855e"/>
+    <rect x="7" y="325" width="94" height="26" fill="#745f42"/>
+    <path d="M54 92 L39 65 L50 36 L58 48 L71 34 L74 65 Z" fill="#d4a72c"/>
+    <circle cx="55" cy="28" r="9" fill="#d4a72c"/>
+    <path d="M53 38 L29 61 M59 39 L82 58" stroke="#d4a72c" stroke-width="7" stroke-linecap="round"/>
+  </g>
+
+  <g fill="#2f7c51">
+    <circle cx="35" cy="500" r="38"/>
+    <circle cx="225" cy="510" r="34"/>
+    <circle cx="610" cy="512" r="38"/>
+    <circle cx="800" cy="510" r="34"/>
+    <circle cx="1015" cy="510" r="40"/>
+    <circle cx="1160" cy="505" r="42"/>
+  </g>
+</svg>

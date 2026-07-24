@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chamber of Commerce Directory</title>
+    <meta name="description"
+        content="Directory page for the Chamber of Commerce website project. This page displays local business members and organizations.">
+    <meta name="author" content="Your Full Name">
+
+    <!-- Open Graph / Facebook Meta Tags -->
+    <meta property="og:title" content="Chamber of Commerce Directory">
+    <meta property="og:description"
+        content="Explore local businesses and organizations that are members of the Chamber of Commerce.">
+    <meta property="og:image" content="https://yourgithubusername.github.io/wdd231/chamber/images/chamber-social.webp">
+    <meta property="og:url" content="https://yourgithubusername.github.io/wdd231/chamber/directory.html">
+    <meta property="og:type" content="website">
+
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.ico">
+
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+</head>
+
+<body>
+    <header>
+        <div class="site-branding">
+            <img src="images/logo.webp" alt="Chamber of Commerce logo">
+            <div>
+                <span class="site-name">Your City Chamber of Commerce</span>
+                <span class="site-tagline">Supporting Local Business</span>
+            </div>
+        </div>
+
+        <button id="menu-button" type="button" aria-label="Open navigation menu">
+            ☰
+        </button>
+
+        <nav id="navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="directory.html" class="active">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Business Directory</h1>
+
+        <section class="directory-intro">
+            <h2>Local Business Members</h2>
+            <p>
+                Explore businesses and organizations that are part of our local
+                Chamber of Commerce. Use the buttons below to switch between a
+                grid view and a list view.
+            </p>
+        </section>
+
+        <section class="view-options" aria-label="Directory display options">
+            <button id="grid-view" type="button">Grid View</button>
+            <button id="list-view" type="button">List View</button>
+        </section>
+
+        <section id="members-container" class="grid">
+            <!-- Business member cards will be added here using JavaScript -->
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-contact">
+            <p>Your City Chamber of Commerce</p>
+            <p>123 Main Street</p>
+            <p>Your City, Your State</p>
+            <p>Email: info@yourcitychamber.org</p>
+            <p>Phone: (000) 000-0000</p>
+        </div>
+
+        <div class="footer-social">
+            <a href="https://www.facebook.com/" target="_blank" rel="noopener">Facebook</a>
+            <a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
+            <a href="https://www.instagram.com/" target="_blank" rel="noopener">Instagram</a>
+        </div>
+
+        <div class="footer-info">
+            <p>
+                &copy; <span id="current-year"></span> Your City Chamber of Commerce
+            </p>
+            <p>Edgar | WDD 231</p>
+            <p>Last Modification: <span id="last-modified"></span></p>
+        </div>
+    </footer>
+
+    <script src="scripts/directory.js"></script>
+</body>
+
+</html>

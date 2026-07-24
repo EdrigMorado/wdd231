@@ -19,54 +19,43 @@
     href="https://edrigmorado.github.io/wdd231/chamber/directory.html"
   >
 
-  <!-- Facebook Open Graph metadata -->
   <meta
     property="og:title"
     content="Directory | Mexico City Chamber of Commerce"
   >
-
   <meta
     property="og:description"
     content="Discover businesses and organizations that strengthen the Mexico City business community."
   >
-
   <meta
     property="og:image"
     content="https://edrigmorado.github.io/wdd231/chamber/images/social-preview.webp"
   >
-
   <meta
     property="og:url"
     content="https://edrigmorado.github.io/wdd231/chamber/directory.html"
   >
-
   <meta property="og:type" content="website">
   <meta property="og:locale" content="en_US">
 
-  <!-- Favicon -->
   <link rel="icon" href="images/favicon.ico" sizes="any">
   <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
 
-  <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
   <link
     href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&amp;display=swap"
     rel="stylesheet"
   >
 
-  <!-- CSS -->
   <link rel="stylesheet" href="styles/normalize.css">
   <link rel="stylesheet" href="styles/small.css">
   <link rel="stylesheet" href="styles/larger.css">
 
-  <!-- JavaScript -->
   <script src="scripts/navigation.js" defer></script>
   <script src="scripts/directory.js" defer></script>
   <script src="scripts/dates.js" defer></script>
 </head>
-
 <body>
   <header class="site-header">
     <div class="header-content">
@@ -94,29 +83,12 @@
         ☰
       </button>
 
-      <nav
-        id="primaryNav"
-        class="primary-nav"
-        aria-label="Primary navigation"
-      >
+      <nav id="primaryNav" class="primary-nav" aria-label="Primary navigation">
         <ul>
-          <li>
-            <a href="index.html">Home</a>
-          </li>
-
-          <li>
-            <a href="directory.html" aria-current="page">
-              Directory
-            </a>
-          </li>
-
-          <li>
-            <a href="join.html">Join</a>
-          </li>
-
-          <li>
-            <a href="discover.html">Discover</a>
-          </li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="directory.html" aria-current="page">Directory</a></li>
+          <li><a href="join.html">Join</a></li>
+          <li><a href="discover.html">Discover</a></li>
         </ul>
       </nav>
     </div>
@@ -124,36 +96,22 @@
 
   <main>
     <section class="page-heading">
-      <p class="eyebrow">
-        Connecting businesses and community
-      </p>
-
+      <p class="eyebrow">Connecting businesses and community</p>
       <h1>Member Directory</h1>
-
       <p>
-        Explore businesses and organizations that contribute to the
-        economic development of Mexico City.
+        Explore businesses and organizations that contribute to the economic
+        development of Mexico City.
       </p>
     </section>
 
-    <section
-      class="directory-section"
-      aria-labelledby="directoryTitle"
-    >
+    <section class="directory-section" aria-labelledby="directoryTitle">
       <div class="directory-toolbar">
         <div>
           <h2 id="directoryTitle">Chamber Members</h2>
-
-          <p>
-            Select the directory view that works best for you.
-          </p>
+          <p>Select the directory view that works best for you.</p>
         </div>
 
-        <div
-          class="view-buttons"
-          role="group"
-          aria-label="Select directory layout"
-        >
+        <div class="view-buttons" role="group" aria-label="Select directory layout">
           <button
             id="gridButton"
             class="view-button active"
@@ -176,92 +134,53 @@
         </div>
       </div>
 
-      <div
-        id="members"
-        class="member-cards grid"
-        aria-live="polite"
-      >
-        <p class="loading-message">
-          Loading directory members...
-        </p>
+      <div id="members" class="member-cards grid" aria-live="polite">
+        <p class="loading-message">Loading directory members...</p>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
     <div class="footer-content">
-      <section
-        class="footer-contact"
-        aria-labelledby="contactTitle"
-      >
-        <h2 id="contactTitle">
-          Mexico City Chamber of Commerce
-        </h2>
-
+      <section class="footer-contact" aria-labelledby="directoryContactTitle">
+        <h2 id="directoryContactTitle">Mexico City Chamber of Commerce</h2>
         <address>
           250 Paseo de la Reforma Avenue<br>
           Cuauhtémoc, 06600, Mexico City<br>
-
-          <a href="mailto:contact@mexicocitychamber.example">
-            contact@mexicocitychamber.example
+          <a href="mailto:info@mexicocitychamber.org">
+            info@mexicocitychamber.org
           </a>
           <br>
-
-          <a href="tel:+525555550231">
-            +52&nbsp;55&nbsp;5555&nbsp;0231
-          </a>
+          <a href="tel:+525555550231">+52&nbsp;55&nbsp;5555&nbsp;0231</a>
         </address>
       </section>
 
-      <nav
-        class="social-links"
-        aria-label="Social media links"
-      >
+      <nav class="social-links" aria-label="Social media links">
         <a
           href="https://www.facebook.com/"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Facebook"
-        >
-          f
-        </a>
-
+        >f</a>
         <a
           href="https://www.instagram.com/"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Instagram"
-        >
-          ig
-        </a>
-
+        >ig</a>
         <a
           href="https://www.linkedin.com/"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="LinkedIn"
-        >
-          in
-        </a>
+        >in</a>
       </nav>
 
-      <section
-        class="footer-development"
-        aria-label="Development information"
-      >
+      <section class="footer-development" aria-label="Development information">
         <p>WDD 231 Chamber Project</p>
         <p>Edgar García</p>
-
-        <p>
-          &copy;
-          <span id="currentYear"></span>
-          Mexico City Chamber
-        </p>
-
-        <p>
-          Last Modification:
-          <span id="lastModified"></span>
-        </p>
+        <p>&copy; <span id="currentYear"></span> Mexico City Chamber</p>
+        <p>Last Modification: <span id="lastModified"></span></p>
       </section>
     </div>
   </footer>
