@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Join | Mexico City Chamber of Commerce</title>
+
+    <meta name="description"
+        content="Apply for membership in the Mexico City Chamber of Commerce and compare nonprofit, bronze, silver, and gold membership benefits.">
+
+    <meta name="author" content="Edgar García">
+    <meta name="theme-color" content="#0b1f3a">
+
+    <link rel="canonical" href="https://edrigmorado.github.io/wdd231/chamber/join.html">
+
+    <meta property="og:title" content="Join | Mexico City Chamber of Commerce">
+    <meta property="og:description"
+        content="Join the Mexico City Chamber of Commerce and connect your organization with the local business community.">
+    <meta property="og:image" content="https://edrigmorado.github.io/wdd231/chamber/images/social-preview.webp">
+    <meta property="og:url" content="https://edrigmorado.github.io/wdd231/chamber/join.html">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="en_US">
+
+    <link rel="icon" href="images/favicon.ico" sizes="any">
+    <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&amp;display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/join.js" defer></script>
+    <script src="scripts/dates.js" defer></script>
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="header-content">
+            <a class="brand" href="index.html" aria-label="Mexico City Chamber of Commerce home page">
+                <img src="images/logo.svg" alt="Mexico City Chamber of Commerce logo" width="340" height="90">
+            </a>
+
+            <button id="menuButton" class="menu-button" type="button" aria-label="Open navigation menu"
+                aria-controls="primaryNav" aria-expanded="false">
+                ☰
+            </button>
+
+            <nav id="primaryNav" class="primary-nav" aria-label="Primary navigation">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="directory.html">Directory</a></li>
+                    <li>
+                        <a href="join.html" aria-current="page">Join</a>
+                    </li>
+                    <li><a href="discover.html">Discover</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="join-main">
+        <section class="page-heading">
+            <p class="eyebrow">Build valuable connections</p>
+            <h1>Join the Chamber</h1>
+            <p>
+                Complete the application and select the membership level
+                that best supports your organization.
+            </p>
+        </section>
+
+        <div class="join-layout">
+            <section class="join-form-section" aria-labelledby="applicationTitle">
+                <h2 id="applicationTitle">Membership Application</h2>
+
+                <p class="required-note">
+                    Fields marked with an asterisk (*) are required.
+                </p>
+
+                <form class="membership-form" method="get" action="thankyou.html">
+                    <fieldset>
+                        <legend>Applicant Information</legend>
+
+                        <label>
+                            <span>First Name *</span>
+                            <input type="text" id="firstName" name="firstName" title="Enter your first name"
+                                autocomplete="given-name" required>
+                        </label>
+
+                        <label>
+                            <span>Last Name *</span>
+                            <input type="text" id="lastName" name="lastName" title="Enter your last name"
+                                autocomplete="family-name" required>
+                        </label>
+
+                        <label>
+                            <span>Organizational Title</span>
+                            <input type="text" id="organizationTitle" name="organizationTitle"
+                                title="Use at least seven letters, spaces, or hyphens" autocomplete="organization-title"
+                                pattern="[A-Za-zÀ-ÖØ-öø-ÿ \-]{7,}" minlength="7"
+                                aria-describedby="organizationTitleHelp">
+                            <small id="organizationTitleHelp" class="field-help">
+                                At least seven characters. Letters, spaces, and
+                                hyphens only.
+                            </small>
+                        </label>
+
+                        <label>
+                            <span>Email Address *</span>
+                            <input type="email" id="email" name="email" title="Enter a valid email address"
+                                autocomplete="email" placeholder="name@example.com" required>
+                        </label>
+
+                        <label>
+                            <span>Mobile Phone Number *</span>
+                            <input type="tel" id="phone" name="phone" title="Enter your mobile phone number"
+                                autocomplete="tel" placeholder="+52 55 1234 5678" required>
+                        </label>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Organization Information</legend>
+
+                        <label>
+                            <span>Business or Organization Name *</span>
+                            <input type="text" id="organization" name="organization"
+                                title="Enter the name of your business or organization" autocomplete="organization"
+                                required>
+                        </label>
+
+                        <label>
+                            <span>Membership Level</span>
+                            <select 
+                                id="membershipLevel" 
+                                name="membershipLevel" 
+                                title="Select a membership level" 
+                                autocomplete="off"
+                            >
+                                <option value="">Select a membership level</option>
+                                <option value="np">
+                                    NP Membership — No Fee
+                                </option>
+                                <option value="bronze">
+                                    Bronze Membership
+                                </option>
+                                <option value="silver">
+                                    Silver Membership
+                                </option>
+                                <option value="gold">
+                                    Gold Membership
+                                </option>
+                            </select>
+                        </label>
+
+                        <label>
+                            <span>Business or Organization Description</span>
+                            <textarea 
+                                id="description" 
+                                name="description" 
+                                title="Describe your business or organization"
+                                autocomplete="off" 
+                                rows="6"
+                            ></textarea>
+                        </label>
+                    </fieldset>
+
+                    <input type="hidden" id="timestamp" name="timestamp">
+
+                    <input class="submit-button" type="submit" value="Submit Membership Application">
+                </form>
+            </section>
+
+            <section class="membership-section" aria-labelledby="membershipTitle">
+                <div class="section-heading">
+                    <p class="section-label">Choose your level</p>
+                    <h2 id="membershipTitle">Membership Options</h2>
+                </div>
+
+                <div class="membership-cards">
+                    <article class="membership-card np-card">
+                        <h3>NP Membership</h3>
+                        <p class="membership-price">No Fee</p>
+                        <p>
+                            Designed for qualifying nonprofit organizations.
+                        </p>
+                        <a class="membership-link" href="#npModal" data-modal="npModal" aria-controls="npModal"
+                            aria-haspopup="dialog">
+                            View Benefits
+                        </a>
+                    </article>
+
+                    <article class="membership-card bronze-card">
+                        <h3>Bronze Membership</h3>
+                        <p class="membership-price">$1,500 MXN / year</p>
+                        <p>
+                            Essential resources for small and growing businesses.
+                        </p>
+                        <a class="membership-link" href="#bronzeModal" data-modal="bronzeModal"
+                            aria-controls="bronzeModal" aria-haspopup="dialog">
+                            View Benefits
+                        </a>
+                    </article>
+
+                    <article class="membership-card silver-card">
+                        <h3>Silver Membership</h3>
+                        <p class="membership-price">$3,000 MXN / year</p>
+                        <p>
+                            Greater visibility, training, and event benefits.
+                        </p>
+                        <a class="membership-link" href="#silverModal" data-modal="silverModal"
+                            aria-controls="silverModal" aria-haspopup="dialog">
+                            View Benefits
+                        </a>
+                    </article>
+
+                    <article class="membership-card gold-card">
+                        <h3>Gold Membership</h3>
+                        <p class="membership-price">$5,000 MXN / year</p>
+                        <p>
+                            Premium exposure and exclusive business opportunities.
+                        </p>
+                        <a class="membership-link" href="#goldModal" data-modal="goldModal" aria-controls="goldModal"
+                            aria-haspopup="dialog">
+                            View Benefits
+                        </a>
+                    </article>
+                </div>
+            </section>
+        </div>
+
+        <dialog id="npModal" class="membership-modal" aria-labelledby="npModalTitle">
+            <h2 id="npModalTitle">NP Membership Benefits</h2>
+            <p class="modal-price">No Fee</p>
+            <ul>
+                <li>Basic chamber directory listing</li>
+                <li>Access to community networking events</li>
+                <li>Monthly chamber newsletter</li>
+                <li>Nonprofit training opportunities</li>
+            </ul>
+
+            <form method="dialog">
+                <button class="modal-close" type="submit">
+                    Close
+                </button>
+            </form>
+        </dialog>
+
+        <dialog id="bronzeModal" class="membership-modal" aria-labelledby="bronzeModalTitle">
+            <h2 id="bronzeModalTitle">Bronze Membership Benefits</h2>
+            <p class="modal-price">$1,500 MXN per year</p>
+            <ul>
+                <li>All NP Membership benefits</li>
+                <li>Enhanced directory listing</li>
+                <li>Access to business training sessions</li>
+                <li>Discounts on selected chamber events</li>
+                <li>Monthly networking opportunities</li>
+            </ul>
+
+            <form method="dialog">
+                <button class="modal-close" type="submit">
+                    Close
+                </button>
+            </form>
+        </dialog>
+
+        <dialog id="silverModal" class="membership-modal" aria-labelledby="silverModalTitle">
+            <h2 id="silverModalTitle">Silver Membership Benefits</h2>
+            <p class="modal-price">$3,000 MXN per year</p>
+            <ul>
+                <li>All Bronze Membership benefits</li>
+                <li>Priority registration for chamber events</li>
+                <li>Additional training workshops</li>
+                <li>Social media promotion opportunities</li>
+                <li>Eligibility for home page spotlights</li>
+            </ul>
+
+            <form method="dialog">
+                <button class="modal-close" type="submit">
+                    Close
+                </button>
+            </form>
+        </dialog>
+
+        <dialog id="goldModal" class="membership-modal" aria-labelledby="goldModalTitle">
+            <h2 id="goldModalTitle">Gold Membership Benefits</h2>
+            <p class="modal-price">$5,000 MXN per year</p>
+            <ul>
+                <li>All Silver Membership benefits</li>
+                <li>Premium home page spotlight opportunities</li>
+                <li>Exclusive leadership networking events</li>
+                <li>Event sponsorship opportunities</li>
+                <li>Priority advertising in chamber publications</li>
+                <li>Complimentary annual business consultation</li>
+            </ul>
+
+            <form method="dialog">
+                <button class="modal-close" type="submit">
+                    Close
+                </button>
+            </form>
+        </dialog>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-content">
+            <section class="footer-contact" aria-labelledby="joinContactTitle">
+                <h2 id="joinContactTitle">
+                    Mexico City Chamber of Commerce
+                </h2>
+
+                <address>
+                    250 Paseo de la Reforma Avenue<br>
+                    Cuauhtémoc, 06600, Mexico City<br>
+
+                    <a href="mailto:info@mexicocitychamber.org">
+                        info@mexicocitychamber.org
+                    </a>
+                    <br>
+
+                    <a href="tel:+525555550231">
+                        +52&nbsp;55&nbsp;5555&nbsp;0231
+                    </a>
+                </address>
+            </section>
+
+            <nav class="social-links" aria-label="Social media links">
+                <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"
+                    aria-label="Facebook">f</a>
+
+                <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"
+                    aria-label="Instagram">ig</a>
+
+                <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer"
+                    aria-label="LinkedIn">in</a>
+            </nav>
+
+            <section class="footer-development" aria-label="Development information">
+                <p>WDD 231 Chamber Project</p>
+                <p>Edgar García</p>
+                <p>
+                    &copy;
+                    <span id="currentYear"></span>
+                    Mexico City Chamber
+                </p>
+                <p>
+                    Last Modification:
+                    <span id="lastModified"></span>
+                </p>
+            </section>
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -145,3 +145,38 @@
     height: 580px;
   }
 }
+
+/* Join and thank-you pages */
+
+@media (min-width: 700px) {
+
+  .join-form-section,
+  .membership-section,
+  .confirmation-card {
+    padding: 1.75rem;
+  }
+
+  .thankyou-actions {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .thankyou-actions .cta-button,
+  .thankyou-actions .secondary-button {
+    text-align: center;
+  }
+
+  .submission-detail {
+    grid-template-columns: minmax(190px, 0.7fr) 1.3fr;
+    align-items: start;
+    gap: 1rem;
+  }
+}
+
+@media (min-width: 850px) {
+  .join-layout {
+    grid-template-columns:
+      minmax(0, 1.4fr) minmax(280px, 0.8fr);
+    align-items: start;
+  }
+}

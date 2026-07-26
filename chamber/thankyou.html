@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Thank You | Mexico City Chamber of Commerce</title>
+
+    <meta name="description"
+        content="Thank you for submitting a membership application to the Mexico City Chamber of Commerce.">
+
+    <meta name="author" content="Edgar García">
+    <meta name="theme-color" content="#0b1f3a">
+
+    <link rel="canonical" href="https://edrigmorado.github.io/wdd231/chamber/thankyou.html">
+
+    <meta property="og:title" content="Thank You | Mexico City Chamber of Commerce">
+    <meta property="og:description"
+        content="Your Mexico City Chamber of Commerce membership application has been received.">
+    <meta property="og:image" content="https://edrigmorado.github.io/wdd231/chamber/images/social-preview.webp">
+    <meta property="og:url" content="https://edrigmorado.github.io/wdd231/chamber/thankyou.html">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="en_US">
+
+    <link rel="icon" href="images/favicon.ico" sizes="any">
+    <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&amp;display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/thankyou.js" defer></script>
+    <script src="scripts/dates.js" defer></script>
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="header-content">
+            <a class="brand" href="index.html" aria-label="Mexico City Chamber of Commerce home page">
+                <img src="images/logo.svg" alt="Mexico City Chamber of Commerce logo" width="340" height="90">
+            </a>
+
+            <button id="menuButton" class="menu-button" type="button" aria-label="Open navigation menu"
+                aria-controls="primaryNav" aria-expanded="false">
+                ☰
+            </button>
+
+            <nav id="primaryNav" class="primary-nav" aria-label="Primary navigation">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="directory.html">Directory</a></li>
+                    <li>
+                        <a href="join.html" aria-current="page">Join</a>
+                    </li>
+                    <li><a href="discover.html">Discover</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="thankyou-main">
+        <section class="page-heading">
+            <p class="eyebrow">Application received</p>
+            <h1>Thank You for Joining Us</h1>
+            <p>
+                Your membership application has been successfully submitted.
+                A chamber representative will contact you soon.
+            </p>
+        </section>
+
+        <section class="confirmation-card" aria-labelledby="confirmationTitle">
+            <div class="confirmation-icon" aria-hidden="true">
+                ✓
+            </div>
+
+            <h2 id="confirmationTitle">
+                Application Information
+            </h2>
+
+            <p>
+                Please review the information submitted with your application.
+            </p>
+
+            <dl id="submissionDetails" class="submission-details" aria-live="polite"></dl>
+
+            <div class="thankyou-actions">
+                <a class="cta-button" href="index.html">
+                    Return Home
+                </a>
+
+                <a class="secondary-button" href="directory.html">
+                    View Directory
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-content">
+            <section class="footer-contact" aria-labelledby="thankyouContactTitle">
+                <h2 id="thankyouContactTitle">
+                    Mexico City Chamber of Commerce
+                </h2>
+
+                <address>
+                    250 Paseo de la Reforma Avenue<br>
+                    Cuauhtémoc, 06600, Mexico City<br>
+
+                    <a href="mailto:info@mexicocitychamber.org">
+                        info@mexicocitychamber.org
+                    </a>
+                    <br>
+
+                    <a href="tel:+525555550231">
+                        +52&nbsp;55&nbsp;5555&nbsp;0231
+                    </a>
+                </address>
+            </section>
+
+            <nav class="social-links" aria-label="Social media links">
+                <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"
+                    aria-label="Facebook">f</a>
+
+                <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"
+                    aria-label="Instagram">ig</a>
+
+                <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer"
+                    aria-label="LinkedIn">in</a>
+            </nav>
+
+            <section class="footer-development" aria-label="Development information">
+                <p>WDD 231 Chamber Project</p>
+                <p>Edgar García</p>
+                <p>
+                    &copy;
+                    <span id="currentYear"></span>
+                    Mexico City Chamber
+                </p>
+                <p>
+                    Last Modification:
+                    <span id="lastModified"></span>
+                </p>
+            </section>
+        </div>
+    </footer>
+</body>
+
+</html>
