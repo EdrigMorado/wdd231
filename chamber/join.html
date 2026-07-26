@@ -16,10 +16,14 @@
     <link rel="canonical" href="https://edrigmorado.github.io/wdd231/chamber/join.html">
 
     <meta property="og:title" content="Join | Mexico City Chamber of Commerce">
+
     <meta property="og:description"
         content="Join the Mexico City Chamber of Commerce and connect your organization with the local business community.">
+
     <meta property="og:image" content="https://edrigmorado.github.io/wdd231/chamber/images/social-preview.webp">
+
     <meta property="og:url" content="https://edrigmorado.github.io/wdd231/chamber/join.html">
+
     <meta property="og:type" content="website">
     <meta property="og:locale" content="en_US">
 
@@ -28,6 +32,7 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&amp;display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="styles/normalize.css">
@@ -53,12 +58,23 @@
 
             <nav id="primaryNav" class="primary-nav" aria-label="Primary navigation">
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="directory.html">Directory</a></li>
                     <li>
-                        <a href="join.html" aria-current="page">Join</a>
+                        <a href="index.html">Home</a>
                     </li>
-                    <li><a href="discover.html">Discover</a></li>
+
+                    <li>
+                        <a href="directory.html">Directory</a>
+                    </li>
+
+                    <li>
+                        <a href="join.html" aria-current="page">
+                            Join
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="discover.html">Discover</a>
+                    </li>
                 </ul>
             </nav>
         </div>
@@ -66,8 +82,12 @@
 
     <main class="join-main">
         <section class="page-heading">
-            <p class="eyebrow">Build valuable connections</p>
+            <p class="eyebrow">
+                Build valuable connections
+            </p>
+
             <h1>Join the Chamber</h1>
+
             <p>
                 Complete the application and select the membership level
                 that best supports your organization.
@@ -76,48 +96,57 @@
 
         <div class="join-layout">
             <section class="join-form-section" aria-labelledby="applicationTitle">
-                <h2 id="applicationTitle">Membership Application</h2>
+                <h2 id="applicationTitle">
+                    Membership Application
+                </h2>
 
                 <p class="required-note">
                     Fields marked with an asterisk (*) are required.
                 </p>
 
+                <!-- The only form element in the document -->
                 <form class="membership-form" method="get" action="thankyou.html">
                     <fieldset>
                         <legend>Applicant Information</legend>
 
-                        <label>
+                        <label for="firstName">
                             <span>First Name *</span>
+
                             <input type="text" id="firstName" name="firstName" title="Enter your first name"
                                 autocomplete="given-name" required>
                         </label>
 
-                        <label>
+                        <label for="lastName">
                             <span>Last Name *</span>
+
                             <input type="text" id="lastName" name="lastName" title="Enter your last name"
                                 autocomplete="family-name" required>
                         </label>
 
-                        <label>
+                        <label for="organizationTitle">
                             <span>Organizational Title</span>
+
                             <input type="text" id="organizationTitle" name="organizationTitle"
                                 title="Use at least seven letters, spaces, or hyphens" autocomplete="organization-title"
-                                pattern="[A-Za-zÀ-ÖØ-öø-ÿ \-]{7,}" minlength="7"
+                                pattern="[A-Za-zÀ-ÖØ-öø-ÿ -]{7,}" minlength="7"
                                 aria-describedby="organizationTitleHelp">
+
                             <small id="organizationTitleHelp" class="field-help">
                                 At least seven characters. Letters, spaces, and
                                 hyphens only.
                             </small>
                         </label>
 
-                        <label>
+                        <label for="email">
                             <span>Email Address *</span>
+
                             <input type="email" id="email" name="email" title="Enter a valid email address"
                                 autocomplete="email" placeholder="name@example.com" required>
                         </label>
 
-                        <label>
+                        <label for="phone">
                             <span>Mobile Phone Number *</span>
+
                             <input type="tel" id="phone" name="phone" title="Enter your mobile phone number"
                                 autocomplete="tel" placeholder="+52 55 1234 5678" required>
                         </label>
@@ -126,68 +155,82 @@
                     <fieldset>
                         <legend>Organization Information</legend>
 
-                        <label>
+                        <label for="organization">
                             <span>Business or Organization Name *</span>
+
                             <input type="text" id="organization" name="organization"
                                 title="Enter the name of your business or organization" autocomplete="organization"
                                 required>
                         </label>
 
-                        <label>
+                        <label for="membershipLevel">
                             <span>Membership Level</span>
-                            <select 
-                                id="membershipLevel" 
-                                name="membershipLevel" 
-                                title="Select a membership level" 
-                                autocomplete="off"
-                            >
-                                <option value="">Select a membership level</option>
+
+                            <select id="membershipLevel" name="membershipLevel" title="Select a membership level"
+                                autocomplete="off">
+                                <option value="">
+                                    Select a membership level
+                                </option>
+
                                 <option value="np">
                                     NP Membership — No Fee
                                 </option>
+
                                 <option value="bronze">
                                     Bronze Membership
                                 </option>
+
                                 <option value="silver">
                                     Silver Membership
                                 </option>
+
                                 <option value="gold">
                                     Gold Membership
                                 </option>
                             </select>
                         </label>
 
-                        <label>
-                            <span>Business or Organization Description</span>
-                            <textarea 
-                                id="description" 
-                                name="description" 
-                                title="Describe your business or organization"
-                                autocomplete="off" 
-                                rows="6"
-                            ></textarea>
+                        <label for="description">
+                            <span>
+                                Business or Organization Description
+                            </span>
+
+                            <textarea id="description" name="description" title="Describe your business or organization"
+                                autocomplete="off" rows="6"></textarea>
                         </label>
                     </fieldset>
 
                     <input type="hidden" id="timestamp" name="timestamp">
 
-                    <input class="submit-button" type="submit" value="Submit Membership Application">
+                    <button class="submit-button" type="submit">
+                        Submit Membership Application
+                    </button>
                 </form>
             </section>
 
             <section class="membership-section" aria-labelledby="membershipTitle">
                 <div class="section-heading">
-                    <p class="section-label">Choose your level</p>
-                    <h2 id="membershipTitle">Membership Options</h2>
+                    <p class="section-label">
+                        Choose your level
+                    </p>
+
+                    <h2 id="membershipTitle">
+                        Membership Options
+                    </h2>
                 </div>
 
                 <div class="membership-cards">
                     <article class="membership-card np-card">
                         <h3>NP Membership</h3>
-                        <p class="membership-price">No Fee</p>
+
+                        <p class="membership-price">
+                            No Fee
+                        </p>
+
                         <p>
                             Designed for qualifying nonprofit organizations.
                         </p>
+
                         <a class="membership-link" href="#npModal" data-modal="npModal" aria-controls="npModal"
                             aria-haspopup="dialog">
                             View Benefits
@@ -196,10 +239,15 @@
 
                     <article class="membership-card bronze-card">
                         <h3>Bronze Membership</h3>
-                        <p class="membership-price">$1,500 MXN / year</p>
+
+                        <p class="membership-price">
+                            $1,500 MXN / year
+                        </p>
+
                         <p>
                             Essential resources for small and growing businesses.
                         </p>
+
                         <a class="membership-link" href="#bronzeModal" data-modal="bronzeModal"
                             aria-controls="bronzeModal" aria-haspopup="dialog">
                             View Benefits
@@ -208,10 +256,15 @@
 
                     <article class="membership-card silver-card">
                         <h3>Silver Membership</h3>
-                        <p class="membership-price">$3,000 MXN / year</p>
+
+                        <p class="membership-price">
+                            $3,000 MXN / year
+                        </p>
+
                         <p>
                             Greater visibility, training, and event benefits.
                         </p>
+
                         <a class="membership-link" href="#silverModal" data-modal="silverModal"
                             aria-controls="silverModal" aria-haspopup="dialog">
                             View Benefits
@@ -220,10 +273,15 @@
 
                     <article class="membership-card gold-card">
                         <h3>Gold Membership</h3>
-                        <p class="membership-price">$5,000 MXN / year</p>
+
+                        <p class="membership-price">
+                            $5,000 MXN / year
+                        </p>
+
                         <p>
                             Premium exposure and exclusive business opportunities.
                         </p>
+
                         <a class="membership-link" href="#goldModal" data-modal="goldModal" aria-controls="goldModal"
                             aria-haspopup="dialog">
                             View Benefits
@@ -233,9 +291,16 @@
             </section>
         </div>
 
+        <!-- NP Membership Modal -->
         <dialog id="npModal" class="membership-modal" aria-labelledby="npModalTitle">
-            <h2 id="npModalTitle">NP Membership Benefits</h2>
-            <p class="modal-price">No Fee</p>
+            <h2 id="npModalTitle">
+                NP Membership Benefits
+            </h2>
+
+            <p class="modal-price">
+                No Fee
+            </p>
+
             <ul>
                 <li>Basic chamber directory listing</li>
                 <li>Access to community networking events</li>
@@ -243,16 +308,21 @@
                 <li>Nonprofit training opportunities</li>
             </ul>
 
-            <form method="dialog">
-                <button class="modal-close" type="submit">
-                    Close
-                </button>
-            </form>
+            <button class="modal-close" type="button">
+                Close
+            </button>
         </dialog>
 
+        <!-- Bronze Membership Modal -->
         <dialog id="bronzeModal" class="membership-modal" aria-labelledby="bronzeModalTitle">
-            <h2 id="bronzeModalTitle">Bronze Membership Benefits</h2>
-            <p class="modal-price">$1,500 MXN per year</p>
+            <h2 id="bronzeModalTitle">
+                Bronze Membership Benefits
+            </h2>
+
+            <p class="modal-price">
+                $1,500 MXN per year
+            </p>
+
             <ul>
                 <li>All NP Membership benefits</li>
                 <li>Enhanced directory listing</li>
@@ -261,16 +331,21 @@
                 <li>Monthly networking opportunities</li>
             </ul>
 
-            <form method="dialog">
-                <button class="modal-close" type="submit">
-                    Close
-                </button>
-            </form>
+            <button class="modal-close" type="button">
+                Close
+            </button>
         </dialog>
 
+        <!-- Silver Membership Modal -->
         <dialog id="silverModal" class="membership-modal" aria-labelledby="silverModalTitle">
-            <h2 id="silverModalTitle">Silver Membership Benefits</h2>
-            <p class="modal-price">$3,000 MXN per year</p>
+            <h2 id="silverModalTitle">
+                Silver Membership Benefits
+            </h2>
+
+            <p class="modal-price">
+                $3,000 MXN per year
+            </p>
+
             <ul>
                 <li>All Bronze Membership benefits</li>
                 <li>Priority registration for chamber events</li>
@@ -279,16 +354,21 @@
                 <li>Eligibility for home page spotlights</li>
             </ul>
 
-            <form method="dialog">
-                <button class="modal-close" type="submit">
-                    Close
-                </button>
-            </form>
+            <button class="modal-close" type="button">
+                Close
+            </button>
         </dialog>
 
+        <!-- Gold Membership Modal -->
         <dialog id="goldModal" class="membership-modal" aria-labelledby="goldModalTitle">
-            <h2 id="goldModalTitle">Gold Membership Benefits</h2>
-            <p class="modal-price">$5,000 MXN per year</p>
+            <h2 id="goldModalTitle">
+                Gold Membership Benefits
+            </h2>
+
+            <p class="modal-price">
+                $5,000 MXN per year
+            </p>
+
             <ul>
                 <li>All Silver Membership benefits</li>
                 <li>Premium home page spotlight opportunities</li>
@@ -298,11 +378,9 @@
                 <li>Complimentary annual business consultation</li>
             </ul>
 
-            <form method="dialog">
-                <button class="modal-close" type="submit">
-                    Close
-                </button>
-            </form>
+            <button class="modal-close" type="button">
+                Close
+            </button>
         </dialog>
     </main>
 
@@ -329,24 +407,29 @@
             </section>
 
             <nav class="social-links" aria-label="Social media links">
-                <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"
-                    aria-label="Facebook">f</a>
+                <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                    f
+                </a>
 
-                <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"
-                    aria-label="Instagram">ig</a>
+                <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                    ig
+                </a>
 
-                <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer"
-                    aria-label="LinkedIn">in</a>
+                <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                    in
+                </a>
             </nav>
 
             <section class="footer-development" aria-label="Development information">
                 <p>WDD 231 Chamber Project</p>
                 <p>Edgar García</p>
+
                 <p>
                     &copy;
                     <span id="currentYear"></span>
                     Mexico City Chamber
                 </p>
+
                 <p>
                     Last Modification:
                     <span id="lastModified"></span>
