@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Discover | Mexico City Chamber of Commerce</title>
+
+    <meta name="description"
+        content="Discover landmarks, museums, cultural sites, and attractions that make Mexico City a dynamic place to visit, live, and do business.">
+
+    <meta name="author" content="Edgar García">
+    <meta name="theme-color" content="#0b1f3a">
+
+    <link rel="canonical" href="https://edrigmorado.github.io/wdd231/chamber/discover.html">
+
+    <meta property="og:title" content="Discover | Mexico City Chamber of Commerce">
+
+    <meta property="og:description"
+        content="Explore cultural landmarks, museums, historic sites, and attractions throughout Mexico City.">
+
+    <meta property="og:image" content="https://edrigmorado.github.io/wdd231/chamber/images/social-preview.webp">
+
+    <meta property="og:url" content="https://edrigmorado.github.io/wdd231/chamber/discover.html">
+
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="en_US">
+
+    <link rel="icon" href="images/favicon.ico" sizes="any">
+    <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&amp;display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <script src="scripts/navigation.js" defer></script>
+
+    <script type="module" src="scripts/discover.js"></script>
+
+    <script src="scripts/dates.js" defer></script>
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="header-content">
+
+            <a class="brand" href="index.html" aria-label="Mexico City Chamber of Commerce home page">
+                <img src="images/logo.svg" alt="Mexico City Chamber of Commerce logo" width="340" height="90">
+            </a>
+
+            <button id="menuButton" class="menu-button" type="button" aria-label="Open navigation menu"
+                aria-controls="primaryNav" aria-expanded="false">
+                ☰
+            </button>
+
+            <nav id="primaryNav" class="primary-nav" aria-label="Primary navigation">
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="directory.html">Directory</a>
+                    </li>
+
+                    <li>
+                        <a href="join.html">Join</a>
+                    </li>
+
+                    <li>
+                        <a href="discover.html" aria-current="page">
+                            Discover
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+
+    <main class="discover-main">
+
+        <section class="page-heading">
+            <p class="eyebrow">
+                Experience Mexico City
+            </p>
+
+            <h1>Discover Mexico City</h1>
+
+            <p>
+                Explore some of the cultural, historic, and recreational
+                destinations that make Mexico City one of the world's most
+                dynamic urban communities.
+            </p>
+        </section>
+
+        <aside id="visitMessage" class="visit-message" aria-live="polite">
+        </aside>
+
+        <section class="discover-intro" aria-labelledby="discoverTitle">
+            <div>
+                <p class="section-label">
+                    Explore the city
+                </p>
+
+                <h2 id="discoverTitle">
+                    Places Worth Discovering
+                </h2>
+            </div>
+
+            <p>
+                From historic monuments and internationally recognized
+                museums to traditional canals and public spaces, Mexico City
+                offers experiences that reflect its history, culture, and
+                economic vitality.
+            </p>
+        </section>
+
+        <section id="discoverGrid" class="discover-grid" aria-label="Mexico City places of interest">
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-content">
+
+            <section class="footer-contact" aria-labelledby="discoverContactTitle">
+                <h2 id="discoverContactTitle">
+                    Mexico City Chamber of Commerce
+                </h2>
+
+                <address>
+                    250 Paseo de la Reforma Avenue<br>
+                    Cuauhtémoc, 06600, Mexico City<br>
+
+                    <a href="mailto:info@mexicocitychamber.org">
+                        info@mexicocitychamber.org
+                    </a>
+
+                    <br>
+
+                    <a href="tel:+525555550231">
+                        +52&nbsp;55&nbsp;5555&nbsp;0231
+                    </a>
+                </address>
+            </section>
+
+            <nav class="social-links" aria-label="Social media links">
+                <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                    f
+                </a>
+
+                <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                    ig
+                </a>
+
+                <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                    in
+                </a>
+            </nav>
+
+            <section class="footer-development" aria-label="Development information">
+                <p>WDD 231 Chamber Project</p>
+                <p>Edgar García</p>
+
+                <p>
+                    &copy;
+                    <span id="currentYear"></span>
+                    Mexico City Chamber
+                </p>
+
+                <p>
+                    Last Modification:
+                    <span id="lastModified"></span>
+                </p>
+            </section>
+
+        </div>
+    </footer>
+
+</body>
+
+</html>

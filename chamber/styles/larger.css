@@ -180,3 +180,89 @@
     align-items: start;
   }
 }
+
+/* =========================================
+   Discover Page - Medium Screens
+   ========================================= */
+
+@media (min-width: 641px) and (max-width: 1024px) {
+
+  .discover-intro {
+    grid-template-columns: 0.8fr 1.2fr;
+    align-items: center;
+    padding: 1.5rem;
+  }
+
+  .discover-grid {
+    grid-template-columns:
+      repeat(2, minmax(0, 1fr));
+
+    grid-template-areas:
+      "angel castle"
+      "bellas frida"
+      "anthropology anthropology"
+      "revolution xochimilco"
+      "zocalo zocalo";
+
+    gap: 1.25rem;
+  }
+
+  /*
+    Image effect only on screens larger
+    than the mobile layout.
+  */
+
+  .discover-card figure img {
+    transition:
+      transform 0.3s ease,
+      filter 0.3s ease;
+  }
+
+  .discover-card figure:hover img {
+    transform: scale(1.05);
+    filter: saturate(1.15);
+  }
+}
+
+
+/* =========================================
+   Discover Page - Large Screens
+   ========================================= */
+
+@media (min-width: 1025px) {
+
+  .discover-intro {
+    grid-template-columns: 0.7fr 1.3fr;
+    align-items: center;
+    padding: 1.75rem;
+  }
+
+  .discover-grid {
+    grid-template-columns:
+      repeat(3, minmax(0, 1fr));
+
+    grid-template-areas:
+      "angel castle bellas"
+      "frida anthropology anthropology"
+      "revolution xochimilco zocalo";
+
+    gap: 1.4rem;
+  }
+
+  .discover-card {
+    padding: 1.15rem;
+  }
+
+  .discover-card figure img {
+    transition:
+      transform 0.3s ease,
+      filter 0.3s ease,
+      box-shadow 0.3s ease;
+  }
+
+  .discover-card figure:hover img {
+    transform: scale(1.06);
+    filter:
+      saturate(1.15) contrast(1.05);
+  }
+}
