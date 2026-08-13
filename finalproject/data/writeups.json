@@ -1,0 +1,317 @@
+[
+  {
+    "id": "internship",
+    "title": "Internship",
+    "platform": "DockerLabs",
+    "difficulty": "Easy",
+    "category": "Web & Privilege Escalation",
+    "language": "Spanish",
+    "tools": [
+      "Nmap",
+      "Gobuster",
+      "Hydra"
+    ],
+    "skills": [
+      "Web enumeration",
+      "JavaScript deobfuscation",
+      "Cryptography",
+      "Cron job analysis",
+      "Writable file abuse"
+    ],
+    "summary": "A DockerLabs write-up focused on structured web enumeration, deobfuscation, credential discovery, and Linux privilege escalation in an authorized lab environment.",
+    "featured": true,
+    "status": "Published"
+  },
+  {
+    "id": "paradise",
+    "title": "Paradise",
+    "platform": "DockerLabs",
+    "difficulty": "Easy",
+    "category": "Network & Privilege Escalation",
+    "language": "Spanish",
+    "tools": [
+      "Nmap",
+      "SMB",
+      "Hydra"
+    ],
+    "skills": [
+      "SMB enumeration",
+      "Information leakage",
+      "Base64 analysis",
+      "Credential attacks",
+      "SUID analysis"
+    ],
+    "summary": "A lab write-up that documents service discovery, SMB-focused enumeration, information leakage analysis, credential attacks, and Linux privilege escalation.",
+    "featured": true,
+    "status": "Published"
+  },
+  {
+    "id": "candy",
+    "title": "Candy",
+    "platform": "DockerLabs",
+    "difficulty": "Easy",
+    "category": "CMS & Privilege Escalation",
+    "language": "Spanish",
+    "tools": [
+      "Nmap",
+      "Joomla",
+      "Netcat"
+    ],
+    "skills": [
+      "CMS enumeration",
+      "Robots.txt analysis",
+      "Credential discovery",
+      "Reverse shell handling",
+      "Sudo misconfiguration analysis"
+    ],
+    "summary": "A Joomla-focused DockerLabs write-up covering web reconnaissance, exposed information, authenticated CMS access, shell acquisition, and privilege escalation.",
+    "featured": true,
+    "status": "Published"
+  },
+  {
+    "id": "escolares",
+    "title": "Escolares",
+    "platform": "DockerLabs",
+    "difficulty": "Easy",
+    "category": "CMS & Privilege Escalation",
+    "language": "Spanish",
+    "tools": [
+      "Nmap",
+      "Gobuster",
+      "WPScan"
+    ],
+    "skills": [
+      "WordPress enumeration",
+      "Custom wordlist creation",
+      "Credential discovery",
+      "Reverse shell handling",
+      "Sudo binary analysis"
+    ],
+    "summary": "A WordPress-oriented write-up documenting reconnaissance, user enumeration, targeted credential discovery, initial access, and Linux privilege escalation.",
+    "featured": false,
+    "status": "Published"
+  },
+  {
+    "id": "pressenter",
+    "title": "Pressenter",
+    "platform": "DockerLabs",
+    "difficulty": "Easy",
+    "category": "CMS & Credential Reuse",
+    "language": "Spanish",
+    "tools": [
+      "Nmap",
+      "WPScan",
+      "MySQL"
+    ],
+    "skills": [
+      "WordPress enumeration",
+      "Virtual host discovery",
+      "Database enumeration",
+      "Lateral movement",
+      "Password reuse analysis"
+    ],
+    "summary": "A write-up centered on WordPress enumeration, database credential discovery, lateral movement, and the security impact of password reuse.",
+    "featured": false,
+    "status": "Published"
+  },
+  {
+    "id": "backend",
+    "title": "Backend",
+    "platform": "DockerLabs",
+    "difficulty": "Easy",
+    "category": "General Pentesting",
+    "language": "Spanish",
+    "tools": [
+      "Nmap"
+    ],
+    "skills": [
+      "Reconnaissance",
+      "Service enumeration",
+      "Vulnerability analysis",
+      "Privilege escalation"
+    ],
+    "summary": "A step-by-step DockerLabs write-up showing my workflow from reconnaissance and enumeration through exploitation and privilege escalation.",
+    "featured": false,
+    "status": "Published"
+  },
+  {
+    "id": "move",
+    "title": "Move",
+    "platform": "DockerLabs",
+    "difficulty": "Easy",
+    "category": "General Pentesting",
+    "language": "Spanish",
+    "tools": [
+      "Nmap"
+    ],
+    "skills": [
+      "Reconnaissance",
+      "Enumeration",
+      "Attack-path analysis",
+      "Privilege escalation"
+    ],
+    "summary": "A DockerLabs walkthrough documenting the decisions, evidence, and techniques used to progress from initial enumeration to full compromise.",
+    "featured": false,
+    "status": "Published"
+  },
+  {
+    "id": "verdejo",
+    "title": "Verdejo",
+    "platform": "DockerLabs",
+    "difficulty": "Easy",
+    "category": "General Pentesting",
+    "language": "Spanish",
+    "tools": [
+      "Nmap"
+    ],
+    "skills": [
+      "Reconnaissance",
+      "Enumeration",
+      "Exploitation workflow",
+      "Privilege escalation"
+    ],
+    "summary": "A practical DockerLabs write-up focused on methodical enumeration, attack-path development, and clear documentation of the compromise process.",
+    "featured": false,
+    "status": "Published"
+  },
+  {
+    "id": "mirame",
+    "title": "Mirame",
+    "platform": "DockerLabs",
+    "difficulty": "Easy",
+    "category": "General Pentesting",
+    "language": "Spanish",
+    "tools": [
+      "Nmap"
+    ],
+    "skills": [
+      "Reconnaissance",
+      "Enumeration",
+      "Evidence collection",
+      "Privilege escalation"
+    ],
+    "summary": "A documented DockerLabs assessment that demonstrates my approach to identifying services, testing hypotheses, and validating an attack path.",
+    "featured": false,
+    "status": "Published"
+  },
+  {
+    "id": "elevator",
+    "title": "Elevator",
+    "platform": "DockerLabs",
+    "difficulty": "Easy",
+    "category": "General Pentesting",
+    "language": "Spanish",
+    "tools": [
+      "Nmap"
+    ],
+    "skills": [
+      "Reconnaissance",
+      "Enumeration",
+      "Post-exploitation analysis",
+      "Privilege escalation"
+    ],
+    "summary": "A DockerLabs write-up presenting a repeatable penetration-testing workflow with emphasis on enumeration, validation, and privilege escalation.",
+    "featured": false,
+    "status": "Published"
+  },
+  {
+    "id": "vulnvault",
+    "title": "Vulnvault",
+    "platform": "DockerLabs",
+    "difficulty": "Easy",
+    "category": "General Pentesting",
+    "language": "Spanish",
+    "tools": [
+      "Nmap"
+    ],
+    "skills": [
+      "Reconnaissance",
+      "Enumeration",
+      "Vulnerability analysis",
+      "Privilege escalation"
+    ],
+    "summary": "A structured DockerLabs write-up documenting discovery, enumeration, exploitation decisions, and the path to elevated privileges.",
+    "featured": false,
+    "status": "Published"
+  },
+  {
+    "id": "picadilly",
+    "title": "Picadilly",
+    "platform": "DockerLabs",
+    "difficulty": "Easy",
+    "category": "General Pentesting",
+    "language": "Spanish",
+    "tools": [
+      "Nmap"
+    ],
+    "skills": [
+      "Reconnaissance",
+      "Service enumeration",
+      "Attack-path reasoning",
+      "Privilege escalation"
+    ],
+    "summary": "A practical lab write-up showing how I move from service discovery to a validated compromise while documenting key decisions and evidence.",
+    "featured": false,
+    "status": "Published"
+  },
+  {
+    "id": "hiddencat",
+    "title": "Hiddencat",
+    "platform": "DockerLabs",
+    "difficulty": "Easy",
+    "category": "General Pentesting",
+    "language": "Spanish",
+    "tools": [
+      "Nmap"
+    ],
+    "skills": [
+      "Reconnaissance",
+      "Enumeration",
+      "Evidence-driven testing",
+      "Privilege escalation"
+    ],
+    "summary": "A DockerLabs write-up that highlights an evidence-driven approach to reconnaissance, enumeration, exploitation, and post-exploitation.",
+    "featured": false,
+    "status": "Published"
+  },
+  {
+    "id": "findyourstyle",
+    "title": "FindYourStyle",
+    "platform": "DockerLabs",
+    "difficulty": "Easy",
+    "category": "General Pentesting",
+    "language": "Spanish",
+    "tools": [
+      "Nmap"
+    ],
+    "skills": [
+      "Reconnaissance",
+      "Enumeration",
+      "Attack-path validation",
+      "Privilege escalation"
+    ],
+    "summary": "A step-by-step DockerLabs write-up focused on how I form hypotheses from enumeration results and validate the path to compromise.",
+    "featured": false,
+    "status": "Published"
+  },
+  {
+    "id": "reflection",
+    "title": "Reflection",
+    "platform": "DockerLabs",
+    "difficulty": "Easy",
+    "category": "General Pentesting",
+    "language": "Spanish",
+    "tools": [
+      "Nmap"
+    ],
+    "skills": [
+      "Reconnaissance",
+      "Enumeration",
+      "Technical documentation",
+      "Privilege escalation"
+    ],
+    "summary": "A DockerLabs write-up demonstrating a consistent penetration-testing methodology and clear documentation from initial discovery through privilege escalation.",
+    "featured": false,
+    "status": "Published"
+  }
+]

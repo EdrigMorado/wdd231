@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Writeup Vault | Edgar Garcia Cybersecurity Portfolio</title>
+  <meta name="description" content="Explore Edgar Garcia's professional cybersecurity portfolio, featured penetration testing write-ups, skills, and security projects.">
+  <meta name="author" content="Edgar Garcia">
+  <meta property="og:title" content="Writeup Vault | Edgar Garcia Cybersecurity Portfolio">
+  <meta property="og:description" content="A professional penetration testing portfolio documenting methodology, technical findings, and lessons learned from authorized labs.">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Writeup Vault">
+  <meta property="og:url" content="https://edrigmorado.github.io/wdd231/finalproject/">
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles/base.css">
+  <link rel="stylesheet" href="styles/larger.css">
+  <script type="module" src="scripts/main.js"></script>
+  <script type="module" src="scripts/home.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html"><span class="brand-mark">&gt;_</span> Writeup Vault</a>
+      <button id="menu-button" class="menu-button" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Open navigation menu">☰</button>
+      <nav id="primary-nav" class="primary-nav" aria-label="Primary navigation">
+        <ul>
+          <li><a href="index.html" aria-current="page">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="writeups.html">Write-ups</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="hero">
+      <div class="hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Penetration Testing Portfolio</p>
+          <h1>Documenting how I think, test, and learn.</h1>
+          <p>
+            I am Edgar Garcia, a penetration tester focused on offensive security, web application testing,
+            network enumeration, and practical security automation. Writeup Vault presents my methodology
+            through authorized labs and technical projects.
+          </p>
+          <div class="hero-actions">
+            <a class="button" href="writeups.html">Explore write-ups</a>
+            <a class="button button-secondary" href="about.html">About me</a>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <img src="images/vault-terminal.svg" alt="Stylized terminal representing the Writeup Vault cybersecurity portfolio" width="520" height="360" loading="lazy">
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="stats-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Portfolio snapshot</p>
+          <h2 id="stats-title">Technical work at a glance</h2>
+        </div>
+      </div>
+      <div id="portfolio-stats" class="stats-grid" aria-live="polite"></div>
+      <p id="home-data-status" class="sr-only" aria-live="polite"></p>
+    </section>
+
+    <section class="section" aria-labelledby="featured-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Selected work</p>
+          <h2 id="featured-title">Featured write-ups</h2>
+        </div>
+        <a class="text-link" href="writeups.html">View the complete library</a>
+      </div>
+      <div id="featured-writeups" class="writeup-grid"></div>
+    </section>
+
+    <section class="section" aria-labelledby="projects-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Beyond the labs</p>
+          <h2 id="projects-title">Security projects</h2>
+        </div>
+        <p>I use personal projects to turn repetitive security work into documented and reusable workflows.</p>
+      </div>
+
+      <div class="project-grid">
+        <article class="project-card">
+          <p class="eyebrow">Developer</p>
+          <h3>PortHunter</h3>
+          <p>
+            A Bash-based Nmap automation project designed to streamline full TCP port discovery and targeted
+            service enumeration while keeping the workflow simple and repeatable.
+          </p>
+          <a class="text-link" href="https://github.com/EdrigMorado" target="_blank" rel="noopener">View my GitHub</a>
+        </article>
+
+        <article class="project-card">
+          <p class="eyebrow">Founder</p>
+          <h3>RestlessMinds</h3>
+          <p>
+            A cybersecurity initiative focused on practical security audits for small and medium-sized businesses,
+            helping identify weaknesses and reduce exposure to common cyberattacks.
+          </p>
+          <a class="text-link" href="about.html#projects">Learn more about my work</a>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <ul class="footer-links">
+        <li><a href="https://github.com/EdrigMorado" target="_blank" rel="noopener">GitHub</a></li>
+        <li><a href="attributions.html">Attributions</a></li>
+        <li><a data-video-link href="#">Project Video</a></li>
+      </ul>
+      <p>© <span data-current-year></span> Edgar Garcia · Writeup Vault</p>
+    </div>
+  </footer>
+</body>
+</html>

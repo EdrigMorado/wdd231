@@ -1,0 +1,317 @@
+[
+  {
+    "id": "internship",
+    "overview": "A DockerLabs write-up focused on structured web enumeration, deobfuscation, credential discovery, and Linux privilege escalation in an authorized lab environment.",
+    "approach": "I approached Internship as an evidence-driven assessment. I began with reconnaissance and service identification, then used the results to decide what to enumerate next instead of running unrelated tools. The workflow emphasized Web enumeration, JavaScript deobfuscation, Cryptography. Tools such as Nmap, Gobuster, Hydra supported the process, but the main focus was understanding why each test was relevant and documenting the path from discovery to validated access.",
+    "keyTechniques": [
+      "Web enumeration",
+      "JavaScript deobfuscation",
+      "Cryptography",
+      "Cron job analysis",
+      "Writable file abuse"
+    ],
+    "tools": [
+      "Nmap",
+      "Gobuster",
+      "Hydra"
+    ],
+    "lesson": "This lab reinforced how small clues found during web enumeration can become meaningful when they are correlated with authentication paths and local privilege boundaries. It also strengthened my habit of documenting why each hypothesis is tested rather than jumping directly to exploitation.",
+    "demonstrates": [
+      "Structured reconnaissance and enumeration",
+      "Evidence-based technical decision making",
+      "Clear documentation of an authorized penetration-testing workflow"
+    ]
+  },
+  {
+    "id": "paradise",
+    "overview": "A lab write-up that documents service discovery, SMB-focused enumeration, information leakage analysis, credential attacks, and Linux privilege escalation.",
+    "approach": "I approached Paradise as an evidence-driven assessment. I began with reconnaissance and service identification, then used the results to decide what to enumerate next instead of running unrelated tools. The workflow emphasized SMB enumeration, Information leakage, Base64 analysis. Tools such as Nmap, SMB, Hydra supported the process, but the main focus was understanding why each test was relevant and documenting the path from discovery to validated access.",
+    "keyTechniques": [
+      "SMB enumeration",
+      "Information leakage",
+      "Base64 analysis",
+      "Credential attacks",
+      "SUID analysis"
+    ],
+    "tools": [
+      "Nmap",
+      "SMB",
+      "Hydra"
+    ],
+    "lesson": "Paradise reinforced the value of careful service enumeration and showed how information exposure can become an attack enabler even when the initial finding does not look critical by itself.",
+    "demonstrates": [
+      "Structured reconnaissance and enumeration",
+      "Evidence-based technical decision making",
+      "Clear documentation of an authorized penetration-testing workflow"
+    ]
+  },
+  {
+    "id": "candy",
+    "overview": "A Joomla-focused DockerLabs write-up covering web reconnaissance, exposed information, authenticated CMS access, shell acquisition, and privilege escalation.",
+    "approach": "I approached Candy as an evidence-driven assessment. I began with reconnaissance and service identification, then used the results to decide what to enumerate next instead of running unrelated tools. The workflow emphasized CMS enumeration, Robots.txt analysis, Credential discovery. Tools such as Nmap, Joomla, Netcat supported the process, but the main focus was understanding why each test was relevant and documenting the path from discovery to validated access.",
+    "keyTechniques": [
+      "CMS enumeration",
+      "Robots.txt analysis",
+      "Credential discovery",
+      "Reverse shell handling",
+      "Sudo misconfiguration analysis"
+    ],
+    "tools": [
+      "Nmap",
+      "Joomla",
+      "Netcat"
+    ],
+    "lesson": "Candy helped me practice treating CMS enumeration as a structured process: identify the application, inspect exposed resources, validate authentication opportunities, and then re-enumerate locally after initial access.",
+    "demonstrates": [
+      "Structured reconnaissance and enumeration",
+      "Evidence-based technical decision making",
+      "Clear documentation of an authorized penetration-testing workflow"
+    ]
+  },
+  {
+    "id": "escolares",
+    "overview": "A WordPress-oriented write-up documenting reconnaissance, user enumeration, targeted credential discovery, initial access, and Linux privilege escalation.",
+    "approach": "I approached Escolares as an evidence-driven assessment. I began with reconnaissance and service identification, then used the results to decide what to enumerate next instead of running unrelated tools. The workflow emphasized WordPress enumeration, Custom wordlist creation, Credential discovery. Tools such as Nmap, Gobuster, WPScan supported the process, but the main focus was understanding why each test was relevant and documenting the path from discovery to validated access.",
+    "keyTechniques": [
+      "WordPress enumeration",
+      "Custom wordlist creation",
+      "Credential discovery",
+      "Reverse shell handling",
+      "Sudo binary analysis"
+    ],
+    "tools": [
+      "Nmap",
+      "Gobuster",
+      "WPScan"
+    ],
+    "lesson": "This machine strengthened my WordPress enumeration workflow and reminded me that targeted credential discovery is more effective when it is based on evidence collected during reconnaissance.",
+    "demonstrates": [
+      "Structured reconnaissance and enumeration",
+      "Evidence-based technical decision making",
+      "Clear documentation of an authorized penetration-testing workflow"
+    ]
+  },
+  {
+    "id": "pressenter",
+    "overview": "A write-up centered on WordPress enumeration, database credential discovery, lateral movement, and the security impact of password reuse.",
+    "approach": "I approached Pressenter as an evidence-driven assessment. I began with reconnaissance and service identification, then used the results to decide what to enumerate next instead of running unrelated tools. The workflow emphasized WordPress enumeration, Virtual host discovery, Database enumeration. Tools such as Nmap, WPScan, MySQL supported the process, but the main focus was understanding why each test was relevant and documenting the path from discovery to validated access.",
+    "keyTechniques": [
+      "WordPress enumeration",
+      "Virtual host discovery",
+      "Database enumeration",
+      "Lateral movement",
+      "Password reuse analysis"
+    ],
+    "tools": [
+      "Nmap",
+      "WPScan",
+      "MySQL"
+    ],
+    "lesson": "Pressenter highlighted the operational risk of password reuse and the importance of correlating web, database, and local-system evidence when evaluating lateral movement opportunities.",
+    "demonstrates": [
+      "Structured reconnaissance and enumeration",
+      "Evidence-based technical decision making",
+      "Clear documentation of an authorized penetration-testing workflow"
+    ]
+  },
+  {
+    "id": "backend",
+    "overview": "A step-by-step DockerLabs write-up showing my workflow from reconnaissance and enumeration through exploitation and privilege escalation.",
+    "approach": "I approached Backend as an evidence-driven assessment. I began with reconnaissance and service identification, then used the results to decide what to enumerate next instead of running unrelated tools. The workflow emphasized Reconnaissance, Service enumeration, Vulnerability analysis. Tools such as Nmap supported the process, but the main focus was understanding why each test was relevant and documenting the path from discovery to validated access.",
+    "keyTechniques": [
+      "Reconnaissance",
+      "Service enumeration",
+      "Vulnerability analysis",
+      "Privilege escalation"
+    ],
+    "tools": [
+      "Nmap"
+    ],
+    "lesson": "Backend reinforced the importance of methodical enumeration, validating assumptions before escalating a test, and keeping a clear record of the evidence that supports each step. The lab also helped me improve how I explain an attack path so another technical reader can reproduce the reasoning, not just the final result.",
+    "demonstrates": [
+      "Structured reconnaissance and enumeration",
+      "Evidence-based technical decision making",
+      "Clear documentation of an authorized penetration-testing workflow"
+    ]
+  },
+  {
+    "id": "move",
+    "overview": "A DockerLabs walkthrough documenting the decisions, evidence, and techniques used to progress from initial enumeration to full compromise.",
+    "approach": "I approached Move as an evidence-driven assessment. I began with reconnaissance and service identification, then used the results to decide what to enumerate next instead of running unrelated tools. The workflow emphasized Reconnaissance, Enumeration, Attack-path analysis. Tools such as Nmap supported the process, but the main focus was understanding why each test was relevant and documenting the path from discovery to validated access.",
+    "keyTechniques": [
+      "Reconnaissance",
+      "Enumeration",
+      "Attack-path analysis",
+      "Privilege escalation"
+    ],
+    "tools": [
+      "Nmap"
+    ],
+    "lesson": "Move reinforced the importance of methodical enumeration, validating assumptions before escalating a test, and keeping a clear record of the evidence that supports each step. The lab also helped me improve how I explain an attack path so another technical reader can reproduce the reasoning, not just the final result.",
+    "demonstrates": [
+      "Structured reconnaissance and enumeration",
+      "Evidence-based technical decision making",
+      "Clear documentation of an authorized penetration-testing workflow"
+    ]
+  },
+  {
+    "id": "verdejo",
+    "overview": "A practical DockerLabs write-up focused on methodical enumeration, attack-path development, and clear documentation of the compromise process.",
+    "approach": "I approached Verdejo as an evidence-driven assessment. I began with reconnaissance and service identification, then used the results to decide what to enumerate next instead of running unrelated tools. The workflow emphasized Reconnaissance, Enumeration, Exploitation workflow. Tools such as Nmap supported the process, but the main focus was understanding why each test was relevant and documenting the path from discovery to validated access.",
+    "keyTechniques": [
+      "Reconnaissance",
+      "Enumeration",
+      "Exploitation workflow",
+      "Privilege escalation"
+    ],
+    "tools": [
+      "Nmap"
+    ],
+    "lesson": "Verdejo reinforced the importance of methodical enumeration, validating assumptions before escalating a test, and keeping a clear record of the evidence that supports each step. The lab also helped me improve how I explain an attack path so another technical reader can reproduce the reasoning, not just the final result.",
+    "demonstrates": [
+      "Structured reconnaissance and enumeration",
+      "Evidence-based technical decision making",
+      "Clear documentation of an authorized penetration-testing workflow"
+    ]
+  },
+  {
+    "id": "mirame",
+    "overview": "A documented DockerLabs assessment that demonstrates my approach to identifying services, testing hypotheses, and validating an attack path.",
+    "approach": "I approached Mirame as an evidence-driven assessment. I began with reconnaissance and service identification, then used the results to decide what to enumerate next instead of running unrelated tools. The workflow emphasized Reconnaissance, Enumeration, Evidence collection. Tools such as Nmap supported the process, but the main focus was understanding why each test was relevant and documenting the path from discovery to validated access.",
+    "keyTechniques": [
+      "Reconnaissance",
+      "Enumeration",
+      "Evidence collection",
+      "Privilege escalation"
+    ],
+    "tools": [
+      "Nmap"
+    ],
+    "lesson": "Mirame reinforced the importance of methodical enumeration, validating assumptions before escalating a test, and keeping a clear record of the evidence that supports each step. The lab also helped me improve how I explain an attack path so another technical reader can reproduce the reasoning, not just the final result.",
+    "demonstrates": [
+      "Structured reconnaissance and enumeration",
+      "Evidence-based technical decision making",
+      "Clear documentation of an authorized penetration-testing workflow"
+    ]
+  },
+  {
+    "id": "elevator",
+    "overview": "A DockerLabs write-up presenting a repeatable penetration-testing workflow with emphasis on enumeration, validation, and privilege escalation.",
+    "approach": "I approached Elevator as an evidence-driven assessment. I began with reconnaissance and service identification, then used the results to decide what to enumerate next instead of running unrelated tools. The workflow emphasized Reconnaissance, Enumeration, Post-exploitation analysis. Tools such as Nmap supported the process, but the main focus was understanding why each test was relevant and documenting the path from discovery to validated access.",
+    "keyTechniques": [
+      "Reconnaissance",
+      "Enumeration",
+      "Post-exploitation analysis",
+      "Privilege escalation"
+    ],
+    "tools": [
+      "Nmap"
+    ],
+    "lesson": "Elevator reinforced the importance of methodical enumeration, validating assumptions before escalating a test, and keeping a clear record of the evidence that supports each step. The lab also helped me improve how I explain an attack path so another technical reader can reproduce the reasoning, not just the final result.",
+    "demonstrates": [
+      "Structured reconnaissance and enumeration",
+      "Evidence-based technical decision making",
+      "Clear documentation of an authorized penetration-testing workflow"
+    ]
+  },
+  {
+    "id": "vulnvault",
+    "overview": "A structured DockerLabs write-up documenting discovery, enumeration, exploitation decisions, and the path to elevated privileges.",
+    "approach": "I approached Vulnvault as an evidence-driven assessment. I began with reconnaissance and service identification, then used the results to decide what to enumerate next instead of running unrelated tools. The workflow emphasized Reconnaissance, Enumeration, Vulnerability analysis. Tools such as Nmap supported the process, but the main focus was understanding why each test was relevant and documenting the path from discovery to validated access.",
+    "keyTechniques": [
+      "Reconnaissance",
+      "Enumeration",
+      "Vulnerability analysis",
+      "Privilege escalation"
+    ],
+    "tools": [
+      "Nmap"
+    ],
+    "lesson": "Vulnvault reinforced the importance of methodical enumeration, validating assumptions before escalating a test, and keeping a clear record of the evidence that supports each step. The lab also helped me improve how I explain an attack path so another technical reader can reproduce the reasoning, not just the final result.",
+    "demonstrates": [
+      "Structured reconnaissance and enumeration",
+      "Evidence-based technical decision making",
+      "Clear documentation of an authorized penetration-testing workflow"
+    ]
+  },
+  {
+    "id": "picadilly",
+    "overview": "A practical lab write-up showing how I move from service discovery to a validated compromise while documenting key decisions and evidence.",
+    "approach": "I approached Picadilly as an evidence-driven assessment. I began with reconnaissance and service identification, then used the results to decide what to enumerate next instead of running unrelated tools. The workflow emphasized Reconnaissance, Service enumeration, Attack-path reasoning. Tools such as Nmap supported the process, but the main focus was understanding why each test was relevant and documenting the path from discovery to validated access.",
+    "keyTechniques": [
+      "Reconnaissance",
+      "Service enumeration",
+      "Attack-path reasoning",
+      "Privilege escalation"
+    ],
+    "tools": [
+      "Nmap"
+    ],
+    "lesson": "Picadilly reinforced the importance of methodical enumeration, validating assumptions before escalating a test, and keeping a clear record of the evidence that supports each step. The lab also helped me improve how I explain an attack path so another technical reader can reproduce the reasoning, not just the final result.",
+    "demonstrates": [
+      "Structured reconnaissance and enumeration",
+      "Evidence-based technical decision making",
+      "Clear documentation of an authorized penetration-testing workflow"
+    ]
+  },
+  {
+    "id": "hiddencat",
+    "overview": "A DockerLabs write-up that highlights an evidence-driven approach to reconnaissance, enumeration, exploitation, and post-exploitation.",
+    "approach": "I approached Hiddencat as an evidence-driven assessment. I began with reconnaissance and service identification, then used the results to decide what to enumerate next instead of running unrelated tools. The workflow emphasized Reconnaissance, Enumeration, Evidence-driven testing. Tools such as Nmap supported the process, but the main focus was understanding why each test was relevant and documenting the path from discovery to validated access.",
+    "keyTechniques": [
+      "Reconnaissance",
+      "Enumeration",
+      "Evidence-driven testing",
+      "Privilege escalation"
+    ],
+    "tools": [
+      "Nmap"
+    ],
+    "lesson": "Hiddencat reinforced the importance of methodical enumeration, validating assumptions before escalating a test, and keeping a clear record of the evidence that supports each step. The lab also helped me improve how I explain an attack path so another technical reader can reproduce the reasoning, not just the final result.",
+    "demonstrates": [
+      "Structured reconnaissance and enumeration",
+      "Evidence-based technical decision making",
+      "Clear documentation of an authorized penetration-testing workflow"
+    ]
+  },
+  {
+    "id": "findyourstyle",
+    "overview": "A step-by-step DockerLabs write-up focused on how I form hypotheses from enumeration results and validate the path to compromise.",
+    "approach": "I approached FindYourStyle as an evidence-driven assessment. I began with reconnaissance and service identification, then used the results to decide what to enumerate next instead of running unrelated tools. The workflow emphasized Reconnaissance, Enumeration, Attack-path validation. Tools such as Nmap supported the process, but the main focus was understanding why each test was relevant and documenting the path from discovery to validated access.",
+    "keyTechniques": [
+      "Reconnaissance",
+      "Enumeration",
+      "Attack-path validation",
+      "Privilege escalation"
+    ],
+    "tools": [
+      "Nmap"
+    ],
+    "lesson": "FindYourStyle reinforced the importance of methodical enumeration, validating assumptions before escalating a test, and keeping a clear record of the evidence that supports each step. The lab also helped me improve how I explain an attack path so another technical reader can reproduce the reasoning, not just the final result.",
+    "demonstrates": [
+      "Structured reconnaissance and enumeration",
+      "Evidence-based technical decision making",
+      "Clear documentation of an authorized penetration-testing workflow"
+    ]
+  },
+  {
+    "id": "reflection",
+    "overview": "A DockerLabs write-up demonstrating a consistent penetration-testing methodology and clear documentation from initial discovery through privilege escalation.",
+    "approach": "I approached Reflection as an evidence-driven assessment. I began with reconnaissance and service identification, then used the results to decide what to enumerate next instead of running unrelated tools. The workflow emphasized Reconnaissance, Enumeration, Technical documentation. Tools such as Nmap supported the process, but the main focus was understanding why each test was relevant and documenting the path from discovery to validated access.",
+    "keyTechniques": [
+      "Reconnaissance",
+      "Enumeration",
+      "Technical documentation",
+      "Privilege escalation"
+    ],
+    "tools": [
+      "Nmap"
+    ],
+    "lesson": "Reflection reinforced the importance of methodical enumeration, validating assumptions before escalating a test, and keeping a clear record of the evidence that supports each step. The lab also helped me improve how I explain an attack path so another technical reader can reproduce the reasoning, not just the final result.",
+    "demonstrates": [
+      "Structured reconnaissance and enumeration",
+      "Evidence-based technical decision making",
+      "Clear documentation of an authorized penetration-testing workflow"
+    ]
+  }
+]

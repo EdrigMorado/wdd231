@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="360" viewBox="0 0 520 360" role="img" aria-labelledby="title desc">
+  <title id="title">Writeup Vault terminal illustration</title>
+  <desc id="desc">A stylized terminal window representing penetration testing documentation.</desc>
+  <rect width="520" height="360" rx="28" fill="#111827"/>
+  <rect x="26" y="26" width="468" height="308" rx="18" fill="#0b1120" stroke="#334155" stroke-width="2"/>
+  <circle cx="56" cy="56" r="7" fill="#94a3b8"/>
+  <circle cx="80" cy="56" r="7" fill="#94a3b8"/>
+  <circle cx="104" cy="56" r="7" fill="#22d3ee"/>
+  <path d="M58 111l31 23-31 23" fill="none" stroke="#22d3ee" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M111 157h86" stroke="#f8fafc" stroke-width="8" stroke-linecap="round"/>
+  <rect x="58" y="205" width="356" height="12" rx="6" fill="#334155"/>
+  <rect x="58" y="235" width="303" height="12" rx="6" fill="#334155"/>
+  <rect x="58" y="265" width="389" height="12" rx="6" fill="#334155"/>
+  <rect x="58" y="295" width="220" height="12" rx="6" fill="#334155"/>
+  <path d="M418 115v53M391 141h54" stroke="#22d3ee" stroke-width="6" stroke-linecap="round"/>
+</svg>
