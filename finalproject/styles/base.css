@@ -10,6 +10,8 @@
   --max-width: 1180px;
   --radius: 14px;
   --shadow: 0 16px 40px rgb(0 0 0 / 25%);
+  --font-body: "Inter", Arial, sans-serif;
+  --font-mono: "Source Code Pro", "Courier New", monospace;
 }
 
 * {
@@ -25,7 +27,7 @@ body {
   min-width: 320px;
   background: var(--navy);
   color: var(--white);
-  font-family: "Segoe UI", Arial, sans-serif;
+  font-family: var(--font-body);
   line-height: 1.6;
 }
 
@@ -102,7 +104,7 @@ main,
 .brand {
   color: var(--white);
   text-decoration: none;
-  font-family: Consolas, "Courier New", monospace;
+  font-family: var(--font-mono);
   font-weight: 700;
   letter-spacing: 0.03em;
 }
@@ -189,7 +191,7 @@ main {
 
 .eyebrow {
   color: var(--cyan);
-  font-family: Consolas, "Courier New", monospace;
+  font-family: var(--font-mono);
   font-size: 0.84rem;
   font-weight: 700;
   letter-spacing: 0.08em;
@@ -287,7 +289,7 @@ main {
 .stat-card strong {
   display: block;
   color: var(--cyan);
-  font-family: Consolas, "Courier New", monospace;
+  font-family: var(--font-mono);
   font-size: 2rem;
 }
 
@@ -328,7 +330,7 @@ main {
   align-items: center;
   border: 1px solid var(--slate);
   border-radius: 999px;
-  font-family: Consolas, "Courier New", monospace;
+  font-family: var(--font-mono);
 }
 
 .difficulty-badge {
@@ -521,7 +523,7 @@ dialog::backdrop {
   border: 1px solid var(--cyan-dark);
   border-radius: 999px;
   color: var(--cyan);
-  font-family: Consolas, "Courier New", monospace;
+  font-family: var(--font-mono);
 }
 
 .contact-form {
@@ -635,7 +637,7 @@ dialog::backdrop {
   border-radius: 0.65rem;
   background: #060b14;
   color: var(--white);
-  font-family: Consolas, "Courier New", monospace;
+  font-family: var(--font-mono);
   font-size: 0.88rem;
   line-height: 1.55;
 }
